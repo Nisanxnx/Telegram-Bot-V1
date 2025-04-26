@@ -1,0 +1,182 @@
+[
+  {
+    "threadId": -1002233220499,
+    "title": "TEST BABY | LISA",
+    "prefix": "/",
+    "threadImage": "https://api.telegram.org/file/bot7847188789:AAG64QkyWM7V8lvbkXonztlD_X5RNNAGaAo/profile_photos/file_5.jpg",
+    "threadAdmins": [
+      {
+        "id": 7847188789,
+        "name": "CYBER LISA",
+        "username": "nisangpt_bot",
+        "status": "admin"
+      },
+      {
+        "id": 5443875693,
+        "name": "NISAN",
+        "username": "nisan_editz198",
+        "status": "admin"
+      },
+      {
+        "id": 6242891290,
+        "name": "Dip To",
+        "username": "dipto_008",
+        "status": "admin"
+      },
+      {
+        "id": 5193938086,
+        "name": "~ANTHONY~",
+        "username": "ANTHONY_4_0_4",
+        "status": "admin"
+      }
+    ],
+    "members": [
+      {
+        "id": 6242891290,
+        "fullName": "Dip To"
+      },
+      {
+        "id": 5443875693,
+        "fullName": "NISAN EDITZ"
+      }
+    ],
+    "count": [
+      {
+        "username": "dipto_008",
+        "senderID": 6242891290,
+        "count": 35
+      },
+      {
+        "username": "nisan_editz198",
+        "senderID": 5443875693,
+        "count": 10
+      }
+    ],
+    "settings": {
+      "2024-09-07": [
+        {
+          "username": "dipto_008",
+          "senderID": 6242891290,
+          "count": 35
+        },
+        {
+          "username": "nisan_editz198",
+          "senderID": 5443875693,
+          "count": 9
+        }
+      ]
+    },
+    "games": {},
+    "createdAt": "2024-09-07T17:32:01.810Z",
+    "$__": {
+      "activePaths": {
+        "paths": {
+          "threadId": "init",
+          "title": "init",
+          "prefix": "init",
+          "threadImage": "init",
+          "threadAdmins": "init",
+          "members": "init",
+          "count": "init",
+          "createdAt": "init",
+          "_id": "init",
+          "__v": "init",
+          "settings": "init",
+          "games": "init"
+        },
+        "states": {
+          "require": {},
+          "default": {},
+          "init": {
+            "_id": true,
+            "threadId": true,
+            "title": true,
+            "prefix": true,
+            "threadImage": true,
+            "threadAdmins": true,
+            "members": true,
+            "count": true,
+            "createdAt": true,
+            "__v": true,
+            "settings": true,
+            "games": true
+          }
+        }
+      },
+      "skipId": true
+    },
+    "$isNew": false,
+    "_doc": {
+      "_id": "66dc8e119700f77457a19e63",
+      "threadId": "-1002233220499",
+      "title": "TEST BABY | LISA",
+      "prefix": "/",
+      "threadImage": "https://api.telegram.org/file/bot7847188789:AAG64QkyWM7V8lvbkXonztlD_X5RNNAGaAo/profile_photos/file_30.jpg",
+      "threadAdmins": [
+        {
+          "id": 7847188789,
+          "name": "CYBER LISA",
+          "username": "nisangpt_bot",
+          "status": "admin"
+        },
+        {
+          "id": 5443875693,
+          "name": "NISAN",
+          "username": "nisan_editz198",
+          "status": "admin"
+        },
+        {
+          "id": 6242891290,
+          "name": "Dip To",
+          "username": "dipto_008",
+          "status": "admin"
+        },
+        {
+          "id": 5193938086,
+          "name": "~ANTHONY~",
+          "username": "ANTHONY_4_0_4",
+          "status": "admin"
+        }
+      ],
+      "members": [
+        {
+          "id": 6242891290,
+          "fullName": "Dip To"
+        },
+        {
+          "id": 5443875693,
+          "fullName": "NISAN EDITZ"
+        }
+      ],
+      "count": [
+        {
+          "username": "dipto_008",
+          "senderID": 6242891290,
+          "count": 35
+        },
+        {
+          "username": "nisan_editz198",
+          "senderID": 5443875693,
+          "count": 10
+        }
+      ],
+      "createdAt": "2024-09-07T17:32:01.810Z",
+      "__v": 0,
+      "settings": {
+        "2024-09-07": [
+          {
+            "username": "dipto_008",
+            "senderID": 6242891290,
+            "count": 35
+          },
+          {
+            "username": "nisan_editz198",
+            "senderID": 5443875693,
+            "count": 9
+          }
+        ]
+      },
+      "games": {}
+    }
+  }
+]
