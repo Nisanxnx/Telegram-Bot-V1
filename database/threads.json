@@ -3,12 +3,12 @@
     "threadId": -1002233220499,
     "title": "TEST BABY | LISA",
     "prefix": "/",
-    "threadImage": "https://api.telegram.org/file/bot7847188789:AAG64QkyWM7V8lvbkXonztlD_X5RNNAGaAo/profile_photos/file_5.jpg",
+    "threadImage": "https://api.telegram.org/file/bot7555096127:AAHmeHM9oFu_OsSeNqPlqnwg6RKLDJKbk3M/profile_photos/file_5.jpg",
     "threadAdmins": [
       {
-        "id": 7847188789,
-        "name": "CYBER LISA",
-        "username": "nisangpt_bot",
+        "id": 7555096127,
+        "name": "CyberLisaBot",
+        "username": "CyberLisaBot",
         "status": "admin"
       },
       {
@@ -111,12 +111,12 @@
       "threadId": "-1002233220499",
       "title": "TEST BABY | LISA",
       "prefix": "/",
-      "threadImage": "https://api.telegram.org/file/bot7847188789:AAG64QkyWM7V8lvbkXonztlD_X5RNNAGaAo/profile_photos/file_30.jpg",
+      "threadImage": "https://api.telegram.org/file/bot7555096127:AAHmeHM9oFu_OsSeNqPlqnwg6RKLDJKbk3M/profile_photos/file_30.jpg",
       "threadAdmins": [
         {
-          "id": 7847188789,
-          "name": "CYBER LISA",
-          "username": "nisangpt_bot",
+          "id": 7555096127,
+          "name": "CyberLisaBot",
+          "username": "CyberLisaBot",
           "status": "admin"
         },
         {
