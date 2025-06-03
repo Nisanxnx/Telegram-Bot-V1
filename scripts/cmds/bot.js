@@ -1,8 +1,15 @@
 const axios = require('axios');
 
+const baseApiUrl = async () => {
+  const base = await axios.get(
+`https://raw.githubusercontent.com/Blankid018/D1PT0/main/baseApiUrl.json`,
+  );
+  return base.data.api;
+}; 
+
 module.exports.config = {
-    name: "bot",
-    aliases: ["bby", "bbe", "বট", "baby"],
+    name: "babe",
+    aliases: ["bby", "bbe", "বট", "বেবি", "lisa"],
     version: "1.0",
     credits: "Dipto",
     role: 0,
@@ -15,19 +22,17 @@ module.exports.config = {
 };
 
 module.exports.run = async ({ event, message, args }) =>{
-    
+    const link = `${await baseApiUrl()}/baby`;
     const userMessage = args.join(' ');
-    if(!userMessage) return message.reply('Type /bby hi')
+    const author = event.from.id
+    if(!userMessage) return message.reply('Please provide a message')
     try {
-        const apiUrl = `https://www.noobs-api.rf.gd/dipto/baby?text=${encodeURIComponent(userMessage)}`;
+        const apiUrl = `${link}?text=${encodeURIComponent(userMessage)}&senderID=${author}`;
         const response = await axios.get(apiUrl);
         const data = response.data.reply;
 
       const info = await message.reply(data)
-        
     const infoID = info.message_id; 
-    const author = event.from.id
-        
     global.functions.reply.set(infoID, {
         commandName: this.config.name,
        type: "reply",
@@ -44,8 +49,10 @@ module.exports.run = async ({ event, message, args }) =>{
 
 module.exports.reply = async function ({ event, message ,args, Reply }) {
      const { data } = Reply;
+    const link = `${await baseApiUrl()}/baby`;
+     const author = event.from.id
     try {
-        const apiUrl = `https://www.noobs-api.rf.gd/dipto/baby?text=${encodeURIComponent(args.join(' '))}`;
+        const apiUrl = `${link}?text=${encodeURIComponent(userMessage)}&senderID=${author}`;
         const response = await axios.get(apiUrl);
         const reply = response.data.reply;
      const info = await message.reply(reply);
